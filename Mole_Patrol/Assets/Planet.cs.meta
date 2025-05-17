@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Planet.cs.meta
+guid: d3955701722b54c4a978afb2bc92e5fa
+========
+guid: 01545b1711ce2884aaedac5ea79396bf
+>>>>>>>> aa12414 (Basic Game Over):Assets/Scripts/UI/ButtonFunctions.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

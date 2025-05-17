@@ -1,0 +1,5 @@
+# ninja log v5
+99	202	7651422805540722	C:/Users/gameuser/Documents/Mole_Patrol/Mole_Patrol/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/u1044703/obj/armeabi-v7a/libswappywrapper.so	4f8b48df0c8acf33
+1	99	7651422804480694	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	322182bda70c732a
+2	102	7651433838885712	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	322182bda70c732a
+102	199	7651433839932459	C:/Users/gameuser/Documents/Mole_Patrol/Mole_Patrol/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/u1044703/obj/armeabi-v7a/libswappywrapper.so	4f8b48df0c8acf33

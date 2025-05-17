@@ -1,0 +1,44 @@
+{
+    "enemies": [
+      {
+        "name": "Medium_lvl_1",
+        "stats": {
+          "maxDamage": 8,
+          "maxSpeed": 2,
+          "maxHealth": 20,
+          "goldGainOnDeath": 15,
+          "spawnInterval": 1
+        }
+      },
+      {
+        "name": "Medium_lvl_2",
+        "stats": {
+          "maxDamage": 16,
+          "maxSpeed": 1.5,
+          "maxHealth": 35,
+          "goldGainOnDeath": 25,
+          "spawnInterval": 1.5
+        }
+      },
+      {
+        "name": "Medium_lvl_3",
+        "stats": {
+          "maxDamage": 20,
+          "maxSpeed": 1.75,
+          "maxHealth": 50,
+          "goldGainOnDeath": 35,
+          "spawnInterval": 1.25
+        }
+      },
+      {
+        "name": "Heavy_lvl_1",
+        "stats": {
+          "maxDamage": 15,
+          "maxSpeed": 1,
+          "maxHealth": 80,
+          "goldGainOnDeath": 55,
+          "spawnInterval": 2
+        }
+      }
+    ]
+  }

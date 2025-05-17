@@ -1,0 +1,1423 @@
+{
+    "waves": [
+        {
+            "waveNumber": 1,
+            "spawnPoint": 1,
+            "enemies": [
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 5
+                }
+            ]
+        },
+        {
+            "waveNumber": 2,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 8
+                }
+            ]
+        },
+        {
+            "waveNumber": 3,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 14
+                }
+            ]
+        },
+        {
+            "waveNumber": 4,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 5
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 5
+                }
+            ]
+        },
+        {
+            "waveNumber": 5,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 6
+                },                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 8
+                }
+            ]
+        },
+        {
+            "waveNumber": 6,
+            "spawnPoint": 1,
+            "enemies": [
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 14
+                }
+            ]
+        },
+        {
+            "waveNumber": 7,
+            "spawnPoint": 3,
+            "enemies": [
+                {
+                    "enemyType": "medium3",
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 6
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 10
+                }
+            ]
+        },
+        {
+            "waveNumber": 8,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 1
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 8
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 16
+                }
+            ]
+        },
+        {
+            "waveNumber": 9,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 2
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 10
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 14
+                }
+            ]
+        },
+        {
+            "waveNumber": 10,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 3
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 6
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 26
+                }
+            ]
+        },
+        {
+            "waveNumber": 11,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 5
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 5
+                }
+            ]
+        },
+        {
+            "waveNumber": 12,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 30
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 20
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 20
+                }
+            ]
+        },
+        {
+            "waveNumber": 13,
+            "spawnPoint": 1,
+           "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 5
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 20
+                }
+            ]
+        },
+        {
+            "waveNumber": 14,
+            "spawnPoint": 8,
+            "enemies": [
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 65
+                }
+            ]
+        },
+        {
+            "waveNumber": 15,
+            "spawnPoint": 3,
+           "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 3
+                },
+                {
+                    "enemyType": "medium3",
+                    "numOfEnemies": 30
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 30
+                }
+            ]
+        },
+        {
+            "waveNumber": 16,
+            "spawnPoint": 2,
+            "enemies": [
+                {
+                    "enemyType": "medium3",
+                    "numOfEnemies": 30
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 20
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 10
+                }
+            ]
+        },
+        {
+            "waveNumber": 17,
+            "spawnPoint": 2,
+           "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 5
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 60
+                }
+            ]
+        },
+        {
+            "waveNumber": 18,
+            "spawnPoint": 10,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 3
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 6
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 26
+                }
+            ]
+        },
+        {
+            "waveNumber": 19,
+            "spawnPoint": 10,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 3
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 6
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 26
+                }
+            ]
+        },
+        {
+            "waveNumber": 20,
+            "spawnPoint": 11,
+            "enemies": [
+                {
+                    "enemyType": "heavy",
+                    "numOfEnemies": 3
+                },
+                {
+                    "enemyType": "medium2",
+                    "numOfEnemies": 6
+                },
+                {
+                    "enemyType": "medium",
+                    "numOfEnemies": 26
+                }
+            ]
+        },
+        {
+            "waveNumber": 21,
+            "spawnPoint": 11,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 22,
+            "spawnPoint": 12,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 23,
+            "spawnPoint": 12,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 24,
+            "spawnPoint": 13,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 25,
+            "spawnPoint": 13,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 26,
+            "spawnPoint": 14,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 27,
+            "spawnPoint": 14,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 28,
+            "spawnPoint": 15,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 29,
+            "spawnPoint": 15,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 30,
+            "spawnPoint": 16,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 31,
+            "spawnPoint": 16,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 32,
+            "spawnPoint": 17,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 33,
+            "spawnPoint": 17,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 34,
+            "spawnPoint": 18,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 35,
+            "spawnPoint": 18,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 36,
+            "spawnPoint": 19,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 37,
+            "spawnPoint": 19,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 38,
+            "spawnPoint": 20,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 39,
+            "spawnPoint": 20,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 40,
+            "spawnPoint": 21,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 41,
+            "spawnPoint": 21,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 42,
+            "spawnPoint": 22,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 43,
+            "spawnPoint": 22,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 44,
+            "spawnPoint": 23,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 45,
+            "spawnPoint": 23,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 46,
+            "spawnPoint": 24,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 47,
+            "spawnPoint": 24,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 48,
+            "spawnPoint": 25,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 49,
+            "spawnPoint": 25,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 50,
+            "spawnPoint": 26,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 51,
+            "spawnPoint": 26,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 52,
+            "spawnPoint": 27,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 53,
+            "spawnPoint": 27,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 54,
+            "spawnPoint": 28,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 55,
+            "spawnPoint": 28,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 56,
+            "spawnPoint": 29,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 57,
+            "spawnPoint": 29,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 58,
+            "spawnPoint": 30,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 59,
+            "spawnPoint": 30,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 60,
+            "spawnPoint": 31,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 61,
+            "spawnPoint": 31,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 62,
+            "spawnPoint": 32,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 63,
+            "spawnPoint": 32,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 64,
+            "spawnPoint": 33,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 65,
+            "spawnPoint": 33,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 66,
+            "spawnPoint": 34,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 67,
+            "spawnPoint": 34,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 68,
+            "spawnPoint": 35,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 69,
+            "spawnPoint": 35,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 70,
+            "spawnPoint": 36,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 71,
+            "spawnPoint": 36,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 72,
+            "spawnPoint": 37,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 73,
+            "spawnPoint": 37,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 74,
+            "spawnPoint": 38,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 75,
+            "spawnPoint": 38,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 76,
+            "spawnPoint": 39,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 77,
+            "spawnPoint": 39,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 78,
+            "spawnPoint": 40,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 79,
+            "spawnPoint": 40,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 80,
+            "spawnPoint": 41,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 81,
+            "spawnPoint": 41,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 82,
+            "spawnPoint": 42,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 83,
+            "spawnPoint": 42,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 84,
+            "spawnPoint": 43,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 85,
+            "spawnPoint": 43,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 86,
+            "spawnPoint": 44,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 87,
+            "spawnPoint": 44,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 88,
+            "spawnPoint": 45,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 89,
+            "spawnPoint": 45,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 90,
+            "spawnPoint": 46,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 91,
+            "spawnPoint": 46,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 92,
+            "spawnPoint": 47,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 93,
+            "spawnPoint": 47,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 94,
+            "spawnPoint": 48,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 95,
+            "spawnPoint": 48,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 96,
+            "spawnPoint": 49,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 97,
+            "spawnPoint": 49,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 98,
+            "spawnPoint": 50,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 99,
+            "spawnPoint": 50,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        },
+        {
+            "waveNumber": 100,
+            "spawnPoint": 51,
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "numOfEnemies": 4
+                },
+                {
+                    "enemyType": 1,
+                    "numOfEnemies": 1
+                }
+            ]
+        }
+    ]
+}

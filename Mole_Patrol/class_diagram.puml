@@ -1,0 +1,635 @@
+@startuml
+class AnimationDestroyer {
+  - using UnityEngine
+  + DestroySelf()
+}
+class Planet {
+  - using UnityEngine
+  + Start()
+  + Update()
+}
+class PanelControl {
+  - using TMPro
+  - using UnityEngine
+  - int _page
+  - bool _isReady
+  - TextMeshProUGUI _textTitle
+  - Transform panelTransformDefault
+  - Transform panelTransformOther
+  - Button buttonPrev
+  - Button buttonNext
+  + OnValidate()
+  + Reset()
+  + Start()
+  + Update()
+  + Click_Prev()
+  + Click_Next()
+  + SetArrowActive()
+  + CheckControl()
+  + Click_Mode()
+  + SetMode()
+}
+PanelControl --> Button
+PanelControl --> TextMeshProUGUI
+class PanelView {
+  - using UnityEngine
+  + OnEnable()
+  + OnDisable()
+}
+class AeroPlaneUnit {
+  - using UnityEngine
+  - AeroPlaneTower parentTower
+  - float angle
+  - Vector3 normal
+  - Transform firePoint
+  - IAttackBehaviour attackBehaviour
+  - TowerData towerData
+  - return closest
+  + Initialise()
+  + UpdateMomvement()
+  + Update()
+  + FindClosestEnemy()
+}
+AeroPlaneUnit --> IAttackBehaviour
+AeroPlaneUnit --> AeroPlaneTower
+AeroPlaneUnit --> TowerData
+class AnalyticsManager {
+  - using UnityEngine
+  + PostMethod()
+  + UploadHandlerRaw()
+  + DownloadHandlerBuffer()
+}
+class Atmosphere {
+  - using UnityEngine
+  - LineRenderer lineRenderer
+  - return gravityDirection
+  + Start()
+  + FixedUpdate()
+  + Update()
+  + updateAtmosphere()
+  + gatherObjectsInAtmosphere()
+  + applyGravity()
+  + applyCorrectionRotation()
+  + getGravityDirection()
+  + OnDrawGizmos()
+  + OnDrawGizmosSelected()
+}
+Atmosphere --> LineRenderer
+class BasicEnemySpawner {
+  - using UnityEngine
+  - GameObject enemyPrefab
+  - yield break
+  + Start()
+  + StartCoroutine()
+  + DelayedStart()
+  + WaitUntil()
+  + SpawnEnemy()
+  + PlaceEnemy()
+}
+class ClickHandler {
+  - using UnityEngine
+  - GameObject PrevclickedObject
+  - RaycastHit hit
+  + ResetColors()
+  + HandleTriangleClick()
+  + Update()
+  + if()
+}
+ClickHandler --> RaycastHit
+class Enemy {
+  - using UnityEngine
+  - GameObject planet
+  - Rigidbody rb
+  - Animator animator
+  - GameObject target
+  - Vector3 aimVector
+  - return moveDirection
+  - return true
+  - return false
+  + Awake()
+  + Start()
+  + Update()
+  + FixedUpdate()
+  + attack()
+  + WaitForSeconds()
+  + checkToFindAnotherTarget()
+  + findClosestTarget()
+  + MoveToTarget()
+  + getPlanetRelativeTargetDirection()
+  + Move()
+  + InAttackRange()
+  + OnCollisionEnter()
+  + TakeDamage()
+  + OnTriggerEnter()
+  + OnCollisionExit()
+  + OnDestroy()
+}
+Enemy --> Rigidbody
+Enemy --> Animator
+class EnemySpawner {
+  - using System
+  - using UnityEngine
+  - GameObject enemy
+  - GameObject planetTransform
+  + Start()
+  + Update()
+  + startSpawning()
+  + roundCycle()
+  + WaitForSeconds()
+  + spawnCycle()
+  + WaitForSeconds()
+  + spawnEnemy()
+  + getRandomCentroid()
+}
+class GameManager {
+  - using UnityEngine
+  - GameManager instance
+  - SpaceshipController spaceship
+  - int score
+  - int scoreSinceLastDeath
+  - bool isPaused
+  - GameObject spaceshipPrefab
+  - GameObject asteroidPrefab
+  - return isPaused
+  - AsteroidController asteroid
+  + InitializeTestingEnvironment()
+  + SpaceshipIsActive()
+  + OnEnable()
+  + Start()
+  + Update()
+  + UpdateTimers()
+  + RespawnShip()
+  + RespawnShipCoroutine()
+  + WaitForSeconds()
+  + SpawnAsteroids()
+  + Vector2()
+  + Vector2()
+  + Vector2()
+  + ReloadScene()
+  + WaitForSeconds()
+  + AddToScore()
+}
+GameManager --> SpaceshipController
+GameManager --> AsteroidController
+class PlanetGeneration {
+  - using UnityEngine
+  - GameObject planet
+  - GameObject prefab
+  - Material triangleMaterial
+  - Material wireFrameMaterial
+  - ClickHandler clickHandler
+  - return cachedIndex
+  - return index
+  - return centroid
+  + Awake()
+  + GameObject()
+  + GeneratePlanet()
+  + CreateIcosahedron()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Vector3()
+  + Subdivide()
+  + GetMiddlePoint()
+  + CalculateCentroids()
+  + CreateTriangleMeshes()
+  + GameObject()
+  + Mesh()
+  + Vector2()
+  + Vector2()
+  + Vector2()
+}
+PlanetGeneration --> Material
+PlanetGeneration --> ClickHandler
+class SwipeToRotate {
+  - using UnityEngine
+  - Vector2 touchStartPos
+  - Vector2 touchEndPos
+  - Vector2 touchDelta
+  - RaycastHit hit
+  - return true
+  - return false
+  + Update()
+  + CheckIfTouchHitsSphere()
+}
+SwipeToRotate --> RaycastHit
+SwipeToRotate --> Vector2
+class TowerSlot {
+  - using UnityEngine
+  - GameObject towerPrefab
+  - string towerName
+  - GameObject previewTower
+  - Camera mainCamera
+  - TowerPlacer buildingPlacer
+  - BuildingMenuSlot buildingMenuSlot
+  + Awake()
+  + Start()
+  + OnPointerDown()
+  + OnDrag()
+  + OnPointerUp()
+}
+TowerSlot --> TowerPlacer
+TowerSlot --> BuildingMenuSlot
+TowerSlot --> Camera
+class ZoomingScript {
+  - using UnityEngine
+  - Camera cam
+  - float zoomSpeed
+  - float scrollSpeed
+  - float minZoom
+  - float maxZoom
+  - bool enabled
+  + Start()
+  + Update()
+  + HandleTouchZoom()
+  + HandleMouseScrollZoom()
+  + ApplyZoom()
+}
+ZoomingScript --> Camera
+class AeroPlaneShootBehaviour {
+  - using UnityEngine
+  - GameObject projectilePrefab
+  + Attack()
+}
+class CannonBallShootBehaviour {
+  - using UnityEngine
+  - GameObject projectilePrefab
+  + Attack()
+}
+class MortarBallShootBehaviour {
+  - using UnityEngine
+  - GameObject projectilePrefab
+  + Attack()
+}
+class SniperTowerShootBehaviour {
+  - using UnityEngine
+  - GameObject projectilePrefab
+  + Attack()
+}
+class AeroPlaneTower {
+  - using UnityEngine
+  - GameObject planePrefab
+  - GameObject spawnedPlane
+  - Vector3 normal
+  + Initialise()
+  + SpawnPlane()
+  + Update()
+}
+class CannonBallTower {
+  - using UnityEngine
+  - IAttackBehaviour attackStrategy
+  - Enemy targetEnemy
+  - GameObject Turret
+  - Vector3 aimVector
+  + Initialise()
+  + Update()
+  + LookAtTarget()
+  + FindTarget()
+}
+CannonBallTower --> IAttackBehaviour
+CannonBallTower --> Enemy
+class GoldMineTower {
+  - using UnityEngine
+  - UnityEvent onGoldCollected
+  - GameObject coinPopUp
+  - Transform spawnPoint
+  - ParticleSystem smoke1
+  - ParticleSystem smoke2
+  + Initialise()
+  + Update()
+  + RepairTower()
+  + Reset()
+  + GenerateResources()
+  + WaitForSeconds()
+}
+GoldMineTower --> UnityEvent
+GoldMineTower --> ParticleSystem
+class Mortar {
+  - using UnityEngine
+  - IAttackBehaviour attackStrategy
+  - Enemy targetEnemy
+  - GameObject Turret
+  - Vector3 aimVector
+  + Initialise()
+  + Update()
+  + LookAtTarget()
+  + FindTarget()
+}
+Mortar --> IAttackBehaviour
+Mortar --> Enemy
+class SniperTower {
+  - using UnityEngine
+  - IAttackBehaviour attackStrategy
+  - Enemy targetEnemy
+  - GameObject Turret
+  + Start()
+  + Initialise()
+  + Update()
+  + LookAtTarget()
+  + FindTarget()
+}
+SniperTower --> IAttackBehaviour
+SniperTower --> Enemy
+class Tower {
+  - using System
+  - using UnityEngine
+  - Transform firePoint
+  - TowerData towerData
+  - int currentHealth
+  - return towerData
+  - return currentHealth
+  + Update()
+  + Initialise()
+  + GetTowerData()
+  + TakeDamage()
+  + RepairTower()
+  + GetCurrentHealth()
+}
+Tower --> TowerData
+class TowerData {
+  - using UnityEngine
+  - private set
+  - private set
+  - private set
+  - private set
+  - private set
+  - private set
+  - private set
+  - private set
+  - private set
+  - private set
+  + IncrementTowerLevel()
+}
+TowerData --> private
+class TowerFactory {
+  - using UnityEngine
+  - string TowerType
+  - TowerLevel Level
+  - return false
+  + TowerKey()
+  + Equals()
+  + GetHashCode()
+  + TowerKey()
+  + TowerData()
+  + GetTowerData()
+  + TowerKey()
+}
+TowerFactory --> TowerLevel
+class TowerPlacer {
+  - using UnityEngine
+  - PlanetGeneration planetGenerator
+  - GameObject buildingPrefab
+  - Sprite CannonTowerSprite
+  - Sprite FactoryTowerSprite
+  - Sprite MortarTowerSprite
+  - Sprite SniperTowerSprite
+  - Sprite AeroPlaneSprite
+  + Awake()
+  + Start()
+  + PlaceBuilding()
+  + SpawnTower()
+}
+TowerPlacer --> PlanetGeneration
+TowerPlacer --> Sprite
+class TownHallTower {
+  - using UnityEngine
+  + Initialise()
+  + Update()
+}
+class CameraOrbit {
+  - using UnityEngine
+  - Transform target
+  - Vector2 lastTouchPosition
+  + Awake()
+  + Update()
+  + LateUpdate()
+}
+CameraOrbit --> Vector2
+class BasicProjectile {
+  - using UnityEngine
+  + Start()
+  + Initialize()
+  + Update()
+  + UpdateProjectile()
+  + OnTriggerEnter()
+}
+class CanonBallProjectile {
+  - using UnityEngine
+  + Start()
+  + Initialize()
+  + Update()
+  + UpdateProjectile()
+  + OnTriggerEnter()
+}
+class MortarProjectile {
+  - using UnityEngine
+  - Vector3 startPosition
+  - Vector3 destination
+  - float flightTime
+  + Start()
+  + Initialize()
+  + Update()
+  + OnImpact()
+  + OnTriggerEnter()
+  + OnDrawGizmosSelected()
+}
+class Projectile {
+  - using UnityEngine
+  - Rigidbody rb
+  - Transform target
+  - float speed
+  - float damage
+  + Start()
+  + Initialize()
+}
+Projectile --> Rigidbody
+class ButtonFunctions {
+  - using UnityEngine
+  + StartGame()
+  + ExitGame()
+}
+class CoinDisplay {
+  - using TMPro
+  - using UnityEngine
+  - TextMeshProUGUI coinAmount
+  + Start()
+  + Update()
+}
+CoinDisplay --> TextMeshProUGUI
+class GameOverTexts {
+  - using TMPro
+  - using UnityEngine
+  - TMP_Text wavesSurvivedText
+  - TMP_Text enemiesKilledText
+  - TMP_Text goldMadeText
+  - TMP_Text towersPlaced
+  + Start()
+  + Update()
+}
+GameOverTexts --> TMP_Text
+class MoneyPopUp {
+  - using TMPro
+  - using UnityEngine
+  - TextMeshProUGUI textMesh
+  - Color textColor
+  + Start()
+  + Update()
+  + Vector3()
+}
+MoneyPopUp --> TextMeshProUGUI
+MoneyPopUp --> Color
+class UIController {
+  - using TMPro
+  - using UnityEngine
+  - Transform coinLocation
+  - GameObject coinPopUp
+  - Transform canvasTransform
+  - return null
+  + Awake()
+  + Start()
+  + Update()
+  + CreateMoneyEffect()
+  + WaitForAnimation()
+  + WaitForSeconds()
+}
+class BuildingInformationHandler {
+  - using System
+  - using TMPro
+  - using UnityEngine
+  - TextMeshProUGUI buildingName
+  - Slider healthSlider
+  - Image towerImage
+  - GameObject costContainer
+  - GameObject upgradeContainer
+  - int rebuildCostValue
+  - int upgradeCostValue
+  - Tower currentTower
+  + Awake()
+  + OnEnable()
+  + OnDisable()
+  + SelectNewTower()
+  + UpdateTowerRepairCost()
+  + UpdateTowerUpgradeCost()
+  + UpdateUI()
+  + RepairBuilding()
+  + UpgradeBuilding()
+}
+BuildingInformationHandler --> Slider
+BuildingInformationHandler --> Tower
+BuildingInformationHandler --> TextMeshProUGUI
+BuildingInformationHandler --> Image
+class BuildingMenuSlot {
+  - using TMPro
+  - using UnityEngine
+  - TextMeshProUGUI cost
+  - Image background
+  - Image TowerSprite
+  - int costForBuilding
+  + Start()
+  + BuyBuilding()
+  + CanAfford()
+  + Update()
+}
+BuildingMenuSlot --> TextMeshProUGUI
+BuildingMenuSlot --> Image
+class BuildingMenuController {
+  - using UnityEngine
+  - BuildingMenuController _instance
+  - return _instance
+  - BuildingInformationHandler informationMenuHandler
+  - CanvasGroup openBuildingsButton
+  - CanvasGroup closeBuildingsButton
+  - CanvasGroup BuildingsMenu
+  - CanvasGroup BuyBuildingsMenu
+  - CanvasGroup TowerInformation
+  + GameObject()
+  + Awake()
+  + PassBuildingDetails()
+  + Start()
+  + OpenBuildingDetails()
+  + SwitchScreens()
+  + DecideMenu()
+  + DisableGroup()
+  + EnableGroup()
+  + OpenBuildingsMenu()
+  + CloseMenu()
+  + CloseMenuAfterAnimation()
+  + StartCoroutine()
+}
+BuildingMenuController --> BuildingInformationHandler
+BuildingMenuController --> CanvasGroup
+class TowerSelectionManager {
+  - using System
+  - using UnityEngine
+  - Tower selectedTower
+  + SelectTower()
+}
+TowerSelectionManager --> Tower
+class Coin {
+  - using UnityEngine
+  - Transform planetCenter
+  - GoldMineTower towerRef
+  + Awake()
+  + LateUpdate()
+  + OnMouseDown()
+}
+Coin --> GoldMineTower
+class SettingsMenuController {
+  - using UnityEngine
+  - CanvasGroup settingsMenu
+  - CanvasGroup settingsPopOutButton
+  + Start()
+  + OpenSettingsMenu()
+  + CloseMenu()
+  + DisableGroup()
+  + EnableGroup()
+  + CloseMenuAfterAnimation()
+  + StartCoroutine()
+}
+SettingsMenuController --> CanvasGroup
+class Cinemachine3rdPersonFollowEditor {
+  - using UnityEngine
+  - using UnityEditor
+  - bool handleIsDragged
+  - bool handleIsDraggedOrHovered
+  - return handleIsDragged
+  + Draw3rdPersonGizmos()
+  + OnInspectorGUI()
+  + OnEnable()
+  + OnDisable()
+  + OnSceneGUI()
+  + DrawSceneTools()
+  + SerializedObject()
+}
+class CinemachineBasicMultiChannelPerlinEditor {
+  - using UnityEngine
+  - using UnityEditor
+  + OnEnable()
+  + OnInspectorGUI()
+}
+class CinemachineBlenderSettingsEditor {
+  - using UnityEngine
+  - using UnityEditor
+  - using UnityEditorInternal
+  - ReorderableList mBlendList
+  - GetAllVirtualCamerasDelegate GetAllVirtualCameras
+  - return 0
+  - return 0
+  + GetExcludedPropertiesInInspector()
+  + OnInspectorGUI()
+  + UpdateCameraCandidates()
+  + GetCameraIndex()
+  + DrawVcamSelector()
+  + Color()
+  + SetupBlendList()
+  + CinemachineBlendDefinition()
+}
+@enduml
